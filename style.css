@@ -1,0 +1,109 @@
+body {
+background: url(img/Gedung\ \ Wikrama.jpeg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+ul {
+    list-style-type: none;
+    margin: 16px 32px;
+    overflow: hidden;
+    background-color: grey;
+  }
+    
+  li {
+    float: right;
+  }
+  
+  .logo {
+    float: left;
+  }
+    
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .logo-text{
+    font-style: italic;
+  }
+    
+  li a:hover:not(.active) {
+    color: white;
+  }
+    
+  .active {
+    color: white;
+  }
+  
+  @media screen and (max-width: 600px) {
+    ul li {float: none;}
+    .logo {float: none;}
+  }
+  .content2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 300px;
+    padding: 0 12%;
+  }
+  
+  .card {
+    background-color: #f7f8f9;
+    transition: 0.3s;
+    width: 300px;
+    min-height: 350px;
+    padding: 32px;
+    margin: 81px 0;
+    text-align: center;
+  }
+  
+  .card:hover {
+    background-color: aquamarine
+  }
+  h2{
+      color: white;
+
+  }
+
+  .content3 {
+    padding: 1% 12% 6% 12%;
+    display:grid;
+    grid-template-columns: 40% 60%;
+    
+  }
+  
+
+
+  .text2 {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    color: white;
+  }
+  
+  .content4 {
+    text-align: center;
+    padding: 6% 12%;
+  }
+  
+  .content4 p {
+    font-size: 18px;
+    color: white;
+   
+  }
+  .content4 {
+    text-align: center;
+    padding: 6% 12%;
+  
+  }
+  .p1 {
+text-align: center;
+padding: 6% 12%;
+color: white;
+  }
